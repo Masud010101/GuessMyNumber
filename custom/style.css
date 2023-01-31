@@ -1,0 +1,68 @@
+/*--common-css-start */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+body{
+  background-color: transparent;
+}
+root{
+  
+}
+/*--common-css-end --*/
+
+.box{
+  position:absolute;
+  top:20%;
+  left:50%;
+  transform: translate(-50%, 50%);
+  z-index: 998;
+}
+.playeroneinput, .playertwoinput{
+  width: 150px;
+  height:30px;
+  border-radius: 5px;
+  border: 2.5px solid blue;
+}
+.gamertwo{
+  display: none;
+}
+.playertwobtn, .playeronebtn{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 5px;
+  background-color: rgb(57, 57, 195);
+  color: #fff;
+  font-size: 16px;
+  font-weight: regular;
+  text-transform: capitalize; 
+}
+.gameimg{
+  position:absolute;
+  margin: 0 auto;
+  height:1000px;
+  width: 1000px;
+  top:50%;
+  left:50%;
+  transform: translate( -50%, -50% );
+  align-items:center;
+  justify-content:center;
+}
+.gameimg picture img{
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+  z-index:-5;
+}
+/*--box-area-end*--/
+

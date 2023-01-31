@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessingGame</title>
+    <link rel="stylesheet" href="custom/bootstrap.min.css"/>
+    <link rel="stylesheet" href="custom/all.min.css"/>
+    <link rel="stylesheet" href="custom/style.css"/>
+    <link rel="stylesheet" href="custom/responsive.css"/>
+</head>
+<body class="background-pic">
+    <div class="container">
+        <row>
+            <div class="box col-lg-12 text-center mt-5">
+                <div class="game-header">
+                    <h2>
+                        Guess my number
+                    </h2>
+                </div>
+                <div class="gamerone">
+                     <div class="playerone">
+                        <h4>player one</h4>
+                     </div>
+                     <div class="error">
+                        <p></p>
+                     </div>
+                     <input class="playeroneinput" type="password"/>
+                     <button class="playeronebtn">start</button>
+                    
+                </div>
+                <div class="gamertwo">
+                    <div class="playertwo">
+                        <h4>player two</h4>
+                    </div>
+                    <div class="error">
+                       <p></p>
+                    </div>
+                    <input class="playertwoinput" type="password"/>
+                    <button type="button" class="playertwobtn">guess</button>
+                    <div class="chance mt-3"></div>
+                    <div class="whoisWinner mt-5">
+                        <p></p>
+                    </div>
+               </div>
+            </div>
+            <div class="gameimg mt-5">
+                <picture>
+                    <img src="images/resize.png" alt="image"> 
+                </picture>
+            </div>
+        </row>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
